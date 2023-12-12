@@ -11,22 +11,34 @@ body {
 .header {
     color: white;
     background-color: #1F2937;
-    border: solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: -35px;
 }
 
 .logo{
     font-size: 24px;
     color: #F9FAF8;
-    border: solid red;
+    margin: 7px;
+    
 }
+
+.header-links{
+    display: flex;
+    align-items: center;
+}
+
 a {
     color: white;
-    border: solid red;
+    margin: 7px;
 }
 
 .intro {
     color: white;
     background-color: #1F2937;
+    padding: 60px;
+    display: flex;
 }
 
 #hero-text{
@@ -44,18 +56,36 @@ a {
     color: white;
     border-radius: 4px;
     border: none;
+    width: 100px;
+    height: 30px;
 }
 
 #jelly-bg{
     width: 300px;
     height: auto;
+    margin: 40px;
 }
 
 .gallery {
     font-size: 36px;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#information{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    margin: 60px;
+}
+
+.img-carousel{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
 .carousel-img{
     width: 100px;
     height: 100px;
@@ -67,10 +97,17 @@ a {
 .subtext {
     font-size: 10px;
     color: slategray;
+    display: flex;
+    width: 500px;
 }
 
 .quote {
     background-color: #E5E7EB;
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -35px;
 }
 
 #quote-text{
@@ -80,23 +117,44 @@ a {
 }
 
 #quote-author{
-
+    width: 200px;
+    margin-left: auto;
 }
 
-.action {
+.action-wrapper{
     background-color: #3882F6;
     color: white;
     border-radius: 6px;
+    margin: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
 }
 
+#action-text{
+}
+
+#signup-text{
+    width: 300px;
+}
 #action-button{ 
     background-color: #3882F6;
     color: white;
     border-radius: 4px;
     border: solid #E5E7EB;
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    margin-left: auto;
+    
 }
 
 footer {
     color: white;
     background-color: #1F2937;
+    margin-bottom: -12px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
